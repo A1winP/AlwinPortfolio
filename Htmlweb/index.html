@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/56663def6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Alwin's Website</title>
+    <header1>
+      <div id="topnav">
+        <div id="topnav-right">
+          <a class="links" href="#home"><i class="fa fa-fw fa-home"></i>Home</a>
+          <a class="links" href="#Contact"
+            ><i class="fa fa-fw fa-envelope"></i>Contact</a
+          >
+          <a class="links" href="#About me"
+            ><i class="fa-solid fa-user"></i>About Me</a
+          >
+        </div>
+      </div>
+    </header1>
+  </head>
+  <body>
+    <a name="home"></a>
+    <br />
+    <br />
+    <div class="box">
+      <img src="/images/Alwin image.jpg" alt="" class="box-img" />
+      <h1>Alwin Prasanna</h1>
+      <h5>Athlete and future Computer scientist</h5>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <a name="About me"></a>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h2>About Me</h2>
+      <p>
+        Hey, I'm Alwin Prasanna I am a sophomore in the class of 2025. I go to
+        Chattahoochee high school and I run track for the JV team. I am
+        currently learning new coding languages such as Python. I'm interested
+        in coding and am ready to learn more about it. I currently am practicing
+        to make the Varsity track team. I have a workout schedule that focuses
+        mainly on having an explosive block start. I mainly focus on
+        short-distance runs because I am a sprinter. I run the 100m dash and the
+        200m dash. My time for the 100m dash is a sub 12 and my 200m dash is a
+        sub 25-26. My Mile Split and Instagram are located down below. Speaking
+        of programming I have a great interest in learning more coding
+        languages. I mostly know HTML and CSS, and working on learning more
+        Python. You can contact me anytime using the nav bar and clicking on
+        "Contact" if you are interested in my workouts or even interested in
+        talking to me about computer programing or Computer science.
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <img src="/images/unnamed.jpg" alt="" class="run-img" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <a name="Contact"></a>
+      </p>
+      <div style="text-align: center">
+        <h2>Contact Me</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+      </div>
+      <div class="row">
+        <form action="action_page.php" method="get">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="email">E-mail:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Your email.."
+          />
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 170px"
+          ></textarea>
+          <input type="submit" id="submit" name="submit" value="Submit here" />
+        </form>
+      </div>
+      <p></p>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/?hl=en"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://ga.milesplit.com/athletes/11428691-alwin-prasanna"
+            ><i class="fa-solid fa-person-running"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+      var navbar = document.getElementById("topnav");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      const li = document.querySelectorAll(".links");
+      const sec = document.querySelectorAll(".sections");
+    </script>
+  </body>
+</html>
